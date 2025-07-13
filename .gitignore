@@ -1,0 +1,74 @@
+# === GENERAL ===
+.DS_Store
+Thumbs.db
+
+# === NODE / TEMPORARY FILES ===
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === VSCODE ===
+.vscode/
+.history/
+
+# === DOTNET / C# ===
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.cache
+**/*.pdb
+*.dbmdl
+*.log
+*.nupkg
+*.snupkg
+*.psess
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.sql
+*.db
+
+# === FLUTTER / DART ===
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.idea/
+**/.android/
+**/.ios/
+**/build/
+**/linux/
+**/macos/
+**/web/
+**/windows/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# === ANDROID STUDIO (en caso de abrir con él) ===
+**/.gradle/
+**/.idea/
+.gradle/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# === FLUTTER FIREBASE ===
+.firebase/
+**/google-services.json
+**/GoogleService-Info.plist
+
+# === ENV FILES ===
+*.env
+*.env.*
+.envrc
+
+# === SYSTEM FILES ===
+*.DS_Store
+*.class
+*.pyc
